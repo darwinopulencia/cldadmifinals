@@ -1,3 +1,4 @@
+
 <?php
 	/*
 	* Author: webprogs team
@@ -7,7 +8,7 @@
 		public $db;
 		public function __construct() {
 			// Mysql connection
-			$this->db = new mysqli("db", "darwin","123","darwincrud");
+			$this->db = new mysqli("db", "darwin","","darwincrud");
 		}
 
 		// inserting data
