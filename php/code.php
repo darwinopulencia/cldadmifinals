@@ -7,7 +7,7 @@
 		public $db;
 		public function __construct() {
 			// Mysql connection
-			$this->db = new mysqli("localhost", "root","","darwincrud");
+			$this->db = new mysqli("db", "darwin","123","darwincrud");
 		}
 
 		// inserting data
