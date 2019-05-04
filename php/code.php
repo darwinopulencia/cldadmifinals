@@ -1,3 +1,4 @@
+<? ob_start(); ?>
 
 <?php
 	/*
@@ -68,3 +69,5 @@
 			return $return;
 		}
 	}
+?>
+

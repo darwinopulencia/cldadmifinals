@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: crudphp
+    image: darwingrant04/crudphp
     container_name: php
     links:
       - "db:cldadmifinals_default"
@@ -16,7 +16,7 @@ services:
     tty: true
 
   db:
-    image: cruddb
+    image: darwingrant04/cruddb
     container_name: db
     ports:
       - "3306:3306"

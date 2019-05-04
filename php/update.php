@@ -31,7 +31,7 @@
 			<option <?php echo $newData->gender == "Female" ? "selected='true'" : ""; ?>>Female</option>
 		</select><br />
 		<button type="submit" name="update">Update</button>
-		<a href='/phptest/saveTodatabase'>Home</a>
+		<a href='index.php'>Home</a>
 	</form>
 </body>
 </html>
